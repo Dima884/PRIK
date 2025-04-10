@@ -67,7 +67,7 @@ def printgraph(graph):
         print("")
     print("------------------------------------------------ \n")
 
-#Проверка связности)
+#Проверка связности
 def walkgraph(graph, con, j = 0):
     graph[j].flag = True
     for i in range(len(graph[j].ways)):
@@ -106,7 +106,7 @@ def writingtoafile(graph, con):
         file.close()
 
 
-#Сформулировать задачу:
+
 
 
 
